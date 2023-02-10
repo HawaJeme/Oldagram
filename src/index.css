@@ -1,0 +1,88 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    width: 375px;
+    height: 67px;
+    margin: 0 auto;
+    position:sticky;
+    top: 0;
+    background-color: white;
+}
+.container{
+    display: flex;
+    padding: 2px 16px 2px 14px;
+    justify-content: space-between;
+}
+.logo{
+    width: 127px;
+}
+.user-logo{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+section{
+    width: 373px;
+    height: 545px;
+    margin: 0 auto;
+    border-top: 1px solid lightgray;
+}
+.user-info{
+    display: flex;
+    width: 348px;
+    height: 34px;
+    margin: 10px;
+}
+
+.post{
+    width: 373px
+}
+.avatar{
+    width: 34px;
+    border-radius: 50%;
+}
+.user-full-name{
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 0 0 7px;
+}
+.user-location{
+    font-size: 12px;
+    padding: 0 0 0 7px;
+}
+/* utility class */
+.font-weigth-700{
+    font-weight: 700;
+}
+.font-weigth-400{
+    font-weight: 400;
+}
+
+.content-body{
+    width: 346px;
+    height: 79px;
+    margin: 15px 10px;
+}
+.icons{
+    display: flex;
+    width: 110px;
+    height: 28px;
+    justify-content: space-between;
+}
+.Likes{
+    margin: 12px 0 0 0;
+    font-size: 13px;
+}
+.username-caption{
+    margin: 12px 0 0 0px;
+    font-size: 13px;
+}
+.username-caption > span{
+    font-weight: 400;
+}
