@@ -5,9 +5,9 @@ export default function Header(){
         <header>
             <div class="container">
                 <img class="logo"
-                src="images/logo.png" alt="logo"/>
+                src="../images/logo.png" alt="logo"/>
                 <img class="user-logo"
-                src="images/user-avatar.png"/>
+                src="../images/user-avatar.png"/>
             </div>
         </header>
     )
